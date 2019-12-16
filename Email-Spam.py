@@ -71,6 +71,7 @@ try:
     except smtplib.SMTPAuthenticationError:
 
         print( R + "\nError - Authentication error, Are you sure the password or the username is correct?" + W)
+        print( R + "\nIf credentials are correct, check if third parties applications for your gmail account is enabled, on the following link -> https://myaccount.google.com/u/2/lesssecureapps")
         sys.exit()
 
 except smtplib.SMTPAuthenticationError:

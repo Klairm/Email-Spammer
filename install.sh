@@ -17,7 +17,7 @@ elif [ $op == 3]; then
     sudo dnf install python2-pip
 else
     echo "Wrong option"
-    
+fi    
 pip install pysocks        # Installing pysocks
 echo "installed pysocks"   # Teling User that installing is done
 
